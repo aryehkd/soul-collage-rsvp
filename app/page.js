@@ -99,7 +99,7 @@ export default function Home() {
         <div className="md:col-span-3">
           <div className="h-full rounded-2xl bg-white/80 p-6 shadow-lg ring-1 ring-amber-300/60">
             <h2 className="font-serif text-2xl font-bold text-amber-900">RSVP</h2>
-            <p className="mt-1 text-stone-700">Reserve your spot below. Space is cozy—RSVP early!</p>
+            <p className="mt-1 text-stone-700">Reserve your spot below!</p>
 
             <form onSubmit={onSubmit} className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
               <div className="sm:col-span-1">
@@ -158,7 +158,7 @@ export default function Home() {
               </div>
 
               <div className="sm:col-span-2">
-                <label className="block text-sm font-medium text-stone-800" htmlFor="notes">Notes (dietary needs, accessibility, etc.)</label>
+                <label className="block text-sm font-medium text-stone-800" htmlFor="notes">Notes</label>
                 <textarea
                   id="notes"
                   name="notes"
